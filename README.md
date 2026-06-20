@@ -17,6 +17,38 @@ Skills are then available as `/dev-toolkit:triage`, `/dev-toolkit:bug-fix`, etc.
 |--------|-------------|
 | [dev-toolkit](./plugins/dev-toolkit) | Bug-fixing, triage, and related dev workflow skills |
 
+## Exposed resources
+
+A plugin can ship five kinds of component. Below is what this marketplace currently exposes, grouped by type.
+
+### Skills
+Model-invoked capabilities, available as `/plugin-name:skill-name`.
+
+| Skill | Plugin | Description |
+|-------|--------|-------------|
+| [bug-fix](./plugins/dev-toolkit/skills/bug-fix) | dev-toolkit | Fix a bug end to end |
+| [triage](./plugins/dev-toolkit/skills/triage) | dev-toolkit | Triage an incoming issue |
+
+### Agents
+Custom subagents (`agents/<name>.md`) that run in their own context window.
+
+_None exposed yet._
+
+### Slash commands
+User-triggered fixed workflows (`commands/<name>.md`).
+
+_None exposed yet._
+
+### Hooks
+Shell run on lifecycle events (`hooks/hooks.json`, e.g. `PreToolUse`, `PostToolUse`).
+
+_None exposed yet._
+
+### MCP servers
+External tool servers bundled with a plugin (`.mcp.json`).
+
+_None exposed yet._
+
 ## Adding a new plugin
 
 1. Create `plugins/<plugin-name>/` with `.claude-plugin/plugin.json` and a `skills/` directory.
