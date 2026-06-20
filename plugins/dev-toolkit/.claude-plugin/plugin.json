@@ -1,6 +1,6 @@
 {
   "name": "dev-toolkit",
   "description": "Bug-fixing, triage, and related dev workflow skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": { "name": "bvinicius" }
 }
