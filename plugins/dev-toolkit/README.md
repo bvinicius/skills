@@ -8,6 +8,7 @@ Bug-fixing, triage, and related dev workflow skills for Claude Code.
 |-------|---------|
 | `/dev-toolkit:triage` | Triage a bug/issue — severity, area, reproducibility, next action |
 | `/dev-toolkit:bug-fix` | Systematic root-cause fix — reproduce, locate, fix, verify, regress |
+| `/dev-toolkit:refine-issue` | Sharpen a raw issue into an actionable ticket — scales depth to complexity |
 
 ## Adding a skill
 

@@ -28,6 +28,7 @@ Model-invoked capabilities, available as `/plugin-name:skill-name`.
 |-------|--------|-------------|
 | [bug-fix](./plugins/dev-toolkit/skills/bug-fix) | dev-toolkit | Fix a bug end to end |
 | [triage](./plugins/dev-toolkit/skills/triage) | dev-toolkit | Triage an incoming issue |
+| [refine-issue](./plugins/dev-toolkit/skills/refine-issue) | dev-toolkit | Sharpen a raw issue into an actionable ticket |
 
 ### Agents
 Custom subagents (`agents/<name>.md`) that run in their own context window.
