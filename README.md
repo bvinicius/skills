@@ -6,7 +6,6 @@ A Claude Code plugin marketplace for dev workflow skills — bug-fixing, triage,
 
 ```
 /plugin marketplace add bvinicius/skills
-/plugin install dev-toolkit@bvinicius
 ```
 
 Skills are then available as `/dev-toolkit:triage`, `/dev-toolkit:bug-fix`, etc.
@@ -16,6 +15,7 @@ Skills are then available as `/dev-toolkit:triage`, `/dev-toolkit:bug-fix`, etc.
 | Plugin | Description |
 |--------|-------------|
 | [dev-toolkit](./plugins/dev-toolkit) | Bug-fixing, triage, and related dev workflow skills |
+| [product-studio](./plugins/product-studio) | Product strategy and management agents for solo builders |
 
 ## Exposed resources
 
@@ -32,7 +32,9 @@ Model-invoked capabilities, available as `/plugin-name:skill-name`.
 ### Agents
 Custom subagents (`agents/<name>.md`) that run in their own context window.
 
-_None exposed yet._
+| Agent | Plugin | Description |
+|-------|--------|-------------|
+| [product-strategist](./plugins/product-studio/agents/product-strategist.md) | product-studio | Brutally honest strategy + PM sparring partner for solo builders |
 
 ### Slash commands
 User-triggered fixed workflows (`commands/<name>.md`).

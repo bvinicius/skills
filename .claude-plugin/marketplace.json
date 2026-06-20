@@ -6,6 +6,11 @@
       "name": "dev-toolkit",
       "source": "./plugins/dev-toolkit",
       "description": "Bug-fixing, triage, and related dev workflow skills"
+    },
+    {
+      "name": "product-studio",
+      "source": "./plugins/product-studio",
+      "description": "Product strategy and management agents for solo builders"
     }
   ]
 }
