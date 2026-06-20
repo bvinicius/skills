@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "validate": "claude plugin validate ./plugins/dev-toolkit",
+    "dev": "claude --plugin-dir ./plugins/dev-toolkit"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bvinicius",
+  "owner": { "name": "bvinicius" },
+  "metadata": { "pluginRoot": "./plugins" },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": "./dev-toolkit",
+      "description": "Bug-fixing, triage, and related dev workflow skills"
+    }
+  ]
+}
